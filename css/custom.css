@@ -1,7 +1,0 @@
-:root{
-    --primaryColor: #fbe4de;
-}
-
-.bg-color{
-    background-color: var(--primaryColor);
-}

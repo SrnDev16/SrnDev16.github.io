@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+
+*{
+    font-family: 'Kanit', sans-serif;
+}
+
+:root{
+    --primary-green: #75BF7A;
+    --text-primary: #000000;
+    --bg-primary: #F9F9F9;
+}
+body {
+    background-color: var(--bg-primary);
+}
+.bg-green{
+    background-color: var(--primary-green) ;
+    color: var(--text-primary) ;
+}
+.text-bg-green{
+    color: var(--primary-green);
+}
+.navbar-brand , .navbar-nav > li > a{
+    color: var(--text-primary);
+}
+.promotion{
+    width: 150px;
+    height: 150px;
+}
+.btn-color{
+    background-color: var(--text-primary);
+    color: var(--bg-primary);
+}
+.btn-color:hover{
+    background-color: gray;
+    color: var(--text-primary);
+}
