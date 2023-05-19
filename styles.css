@@ -34,3 +34,7 @@ body {
     background-color: gray;
     color: var(--text-primary);
 }
+.card img{
+    height: 200px;
+    width: auto ;
+}
